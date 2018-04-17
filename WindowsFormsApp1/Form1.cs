@@ -36,7 +36,7 @@ namespace WindowsFormsApp1
 
             label6.Text = Environment.UserDomainName + "\\" + Environment.UserName;
             label8.Text = Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion", "ProductName", "").ToString();
-            if (label8.Text == "Windows 10 Pro") {label8.Text =  label8.Text + Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion", "RelaseId", "").ToString(); }
+            if (label8.Text == "Windows 10 Pro") {label8.Text =  label8.Text + " wersja:" + Registry.GetValue(@"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion", "ReleaseId", "").ToString(); }
             
             string mac = "";
             foreach (NetworkInterface nic in NetworkInterface.GetAllNetworkInterfaces())
