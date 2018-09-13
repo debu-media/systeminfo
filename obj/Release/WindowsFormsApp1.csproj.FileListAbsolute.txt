@@ -1,0 +1,13 @@
+X:\pbuszman\Desktop\systeminfo-master\bin\Release\SYSTEMinfo.exe.config
+X:\pbuszman\Desktop\systeminfo-master\bin\Release\SYSTEMinfo.exe
+X:\pbuszman\Desktop\systeminfo-master\bin\Release\SYSTEMinfo.pdb
+X:\pbuszman\Desktop\systeminfo-master\obj\Release\WindowsFormsApp1.head.resources
+X:\pbuszman\Desktop\systeminfo-master\obj\Release\SYSTEMinfo.Properties.Resources.resources
+X:\pbuszman\Desktop\systeminfo-master\obj\Release\WindowsFormsApp1.csproj.GenerateResource.cache
+X:\pbuszman\Desktop\systeminfo-master\obj\Release\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+X:\pbuszman\Desktop\systeminfo-master\obj\Release\SYSTEMinfo.exe
+X:\pbuszman\Desktop\systeminfo-master\obj\Release\SYSTEMinfo.pdb
+X:\pbuszman\Desktop\systeminfo-master\bin\Release\SYSTEMinfo.exe.manifest
+X:\pbuszman\Desktop\systeminfo-master\bin\Release\SYSTEMinfo.application
+X:\pbuszman\Desktop\systeminfo-master\obj\Release\SYSTEMinfo.exe.manifest
+X:\pbuszman\Desktop\systeminfo-master\obj\Release\SYSTEMinfo.application
