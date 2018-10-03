@@ -1,0 +1,44 @@
+___________________________________________________________
+___________________________________________________________
+||							 ||
+||/  ___|         | |              |_   _|     / _|      || 
+||\ `--. _   _ ___| |_ ___ _ __ ___  | | _ __ | |_ ___   ||
+|| `--. \ | | / __| __/ _ \ '_ ` _ \ | || '_ \|  _/ _ \  ||
+||/\__/ / |_| \__ \ ||  __/ | | | | || || | | | || (_) | ||
+||\____/ \__, |___/\__\___|_| |_| |_\___/_| |_|_| \___/  ||
+||        __/ |                                          ||
+||       |___/                                           ||
+____________________________________________________________
+____________________________________________________________
+Contact : patryk[at]debu.pl Patryk Buszman
+License: GNU General Public License
+Donate : 
+	BitCoin : 18vxq7AuyQrmZLUG64fx5XijeMTRP2yYZt
+	PayPal : paypal.me/debumedia
+____________________________________________________________
+____________________________________________________________
+ __                  __   ___       __   __  
+/  ` |__|  /\  |\ | / _` |__  |    /  \ / _` 
+\__, |  | /~~\ | \| \__> |___ |___ \__/ \__> 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+                                             
+Version 1.2 
+* Add Uptime (Information refreshing every 1 min)
+* Some fixes 
+
+Version 1.1 
+* adding a loop to MAC Adress and IP Adress (Information refreshing every 2 minutes) 
+* Fixed information if there is no connection (duplicate label Mac: Mac; Ip: IP) no connection - no information ;)  
+* Change text color by MouseHover in ComputerName;IP Adress; User name  That's not a bug, that's a feature! 
+* Fixed OS Version - when detect Windows Enterprise show information about Proffesional version 
+
+
+Version 1.0 
+*First "stable" version. Not many option : 
+ -Show ComputerName 
+ -Show Ip Adress 
+ -Show User Name 
+ -Show OS 
+ -Show Mac Adress
+All information show at  statistic text no update  
