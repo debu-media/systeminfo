@@ -17,6 +17,8 @@ namespace WindowsFormsApp1
  
     public partial class head : Form
     {
+        int d=0, g=0, m=0;
+
         public head()
         {
             InitializeComponent();
@@ -60,11 +62,10 @@ namespace WindowsFormsApp1
         }
         public void UpTime()
         {
-  
-                System.Diagnostics.PerformanceCounter upTime = new System.Diagnostics.PerformanceCounter("System", "System Up Time");
-                upTime.NextValue();
-                TimeSpan ts = TimeSpan.FromSeconds(upTime.NextValue());
-                label12.Text = ts.Days +" d. " + ts.Hours + " g. " + ts.Minutes + " m. ".ToString(); ;
+            m = m + 1;
+            if (m == 60) { m = 0; g = g + 1; }
+            if (g == 24) { g = 0; d = d + 1; }
+            label12.Text = d + " d. " + g + " g. " + m + " m. ".ToString();
             
         }
         public void adresip() { 
@@ -87,7 +88,7 @@ namespace WindowsFormsApp1
         {
             adresip();
             macadres();
-            UpTime();
+            label12.Text = "0 d. 0 g. 0 m. ";
             System.Windows.Forms.Timer t = new System.Windows.Forms.Timer();
             t.Interval = 120000; // odświeżanie co 2 min
             t.Tick += new EventHandler(dajadresip);
